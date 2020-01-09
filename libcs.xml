@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="1.7.0">
+	<name>CS Library</name>
+	<libraryname>libcs</libraryname>
+	<author>Ted Lowe</author>
+	<creationDate>2020-01-09</creationDate>
+	<copyright>Creative Spirits (c) 2020</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>lists@creativespirits.org</authorEmail>
+	<authorUrl>https://www.creativespirits.com</authorUrl>
+	<version>1.0.1</version>
+	<description>Joomla! library for use in various open source components</description>
+
+	<files>
+		<folder>dates</folder>
+		<folder>email</folder>
+		<folder>table</folder>
+		<folder>joomla</folder>
+		<folder>forums</folder>
+	</files>
+	<updateservers>
+		<!-- Note: No spaces or linebreaks allowed between the server tags -->
+		<server type="extension" priority="1" name="libcs">https://creativespirits.org/products/joomla/libcs-update.xml</server>
+	</updateservers>
+</extension>

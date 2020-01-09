@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+   <update>
+      <name>CS Library</name>
+      <description>LIBCS Library</description>
+      <element>libcs</element>
+      <type>library</type>
+      <version>1.0.1</version>
+	  <infourl title="LIBCS URL">https://creativespirits.org/products/joomla/libcs-release-notes.html</infourl>
+      <downloads>
+		  <downloadurl type="full" format="zip">https://creativespirits.org/products/joomla/libcs-1.0.1.zip</downloadurl>
+      </downloads>
+      <tags>
+         <tag>some-tag</tag>
+      </tags>
+      <maintainer>Creative Spirits</maintainer>
+      <maintainerurl>https://creativespirits.org</maintainerurl>
+      <section>some-section</section>
+      <targetplatform name="joomla" version="3.[0123456789]" />
+   </update>
+</updates>
