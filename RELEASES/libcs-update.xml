@@ -5,6 +5,7 @@
       <description>LIBCS Library</description>
       <element>libcs</element>
       <type>library</type>
+	  <client>0</client>
       <version>1.0.1</version>
 	  <infourl title="LIBCS URL">https://creativespirits.org/products/joomla/libcs-release-notes.html</infourl>
       <downloads>
