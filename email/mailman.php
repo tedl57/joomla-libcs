@@ -15,12 +15,14 @@ class LibcsEmailMailman
 	private $pw;
 	private $last_error;
 	
-	function __construct($listname,$host,$domain,$component_name)
+	function __construct($component_name)
 	{
-		$this->listname = $listname;
-		$this->host = $host;
-		$this->domain = $domain;
-		$this->pw = JComponentHelper::getParams($component_name)->get("mailman_password","");
+		// get listname, host, domain and password from the given component's params
+		
+		$this->listname = JComponentHelper::getParams($component_name)->get("mailman_listserve_name", "");
+		$this->host = JComponentHelper::getParams($component_name)->get("mailman_host", "");
+		$this->domain = JComponentHelper::getParams($component_name)->get("mailman_domain", "");
+		$this->pw = JComponentHelper::getParams($component_name)->get("mailman_password", "");
 	}
 	private function set_values($url)
 	{

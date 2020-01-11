@@ -3,12 +3,12 @@
 	<name>CS Library</name>
 	<libraryname>libcs</libraryname>
 	<author>Ted Lowe</author>
-	<creationDate>2020-01-09</creationDate>
+	<creationDate>2020-01-11</creationDate>
 	<copyright>Creative Spirits (c) 2020</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>lists@creativespirits.org</authorEmail>
 	<authorUrl>https://www.creativespirits.com</authorUrl>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<description>Joomla! library for use in various open source components</description>
 
 	<files>
