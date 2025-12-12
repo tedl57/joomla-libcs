@@ -121,7 +121,7 @@ $options['prefix']   = 'smf_';             // db prefix (may be empty)
 		
 		$db = $this->getDB();
 
-		$sql = "SELECT * FROM smf_members WHERE memberName='" . addslashes($this->getUsername()) ."'";
+		$sql = "SELECT * FROM smf_members WHERE member_name='" . addslashes($this->getUsername()) ."'";
 		$db->setQuery($sql);
 		$user = $db->loadAssoc();
 		
